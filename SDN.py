@@ -23,6 +23,7 @@ def checkDescriptivness(number):
             return False
     return True
 
+
 """
 #Normally you'd need this snipper, but it's paradoxical to have the first digit zero, so I'll take this step down
 #in order to speed things up a bit.
@@ -37,7 +38,6 @@ def main():
         x += 1
         if checkDescriptivness(str(x)):
             print x
-            break
 
 
 if __name__ == "__main__":
